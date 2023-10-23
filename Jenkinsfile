@@ -3,7 +3,7 @@ pipeline {
     environment{
         DOCKERHUB_CREDENCIALS = credentials ('dockerhub')
         RepoDockerHub = 'aldelgado'
-        NameContainer = 'curso1023'
+        NameContainer = 'pokedex-flask'
     }
 
    stages {
